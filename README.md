@@ -1,6 +1,6 @@
 # Shengfu Zhang — Personal Blog
 
-**Live site:** https://shengfu-zhang.github.io/
+**Live site:** https://shengfu-zhang.github.io/shengfu-blog/
 
 Writing about AI, engineering systems, and how the two are reshaping the way we build software.
 
@@ -43,7 +43,7 @@ Each post folder is self-contained. All platform variants ship together.
 
 ## Where to find me
 
-- Site: https://shengfu-zhang.github.io/
+- Site: https://shengfu-zhang.github.io/shengfu-blog/
 - Substack: *(coming soon)*
 - LinkedIn: *(coming soon)*
 - X/Twitter: *(coming soon)*

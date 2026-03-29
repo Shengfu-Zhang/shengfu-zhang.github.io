@@ -12,8 +12,8 @@
       --bg:       #0e0e0e;
       --surface:  #161616;
       --border:   #262626;
-      --muted:    #555;
-      --body:     #b0b0b0;
+      --muted:    #686868;
+      --body:     #c0c0c0;
       --heading:  #efefef;
       --accent:   #c8f060;
       --accent2:  #60c8f0;
@@ -30,11 +30,25 @@
       background: var(--bg);
       color: var(--body);
       font-family: var(--font-sans);
-      font-weight: 300;
+      font-weight: 400;
       line-height: 1.7;
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
     }
+
+    /* Subtle radial glow */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 45% at 10% 20%, rgba(200,240,96,.04) 0%, transparent 65%),
+        radial-gradient(ellipse 45% 55% at 90% 80%, rgba(96,200,240,.03) 0%, transparent 65%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrap { position: relative; z-index: 1; }
 
     /* ── Layout ── */
     .wrap {
@@ -276,7 +290,7 @@
       <a href="#" target="_blank">LinkedIn</a>
       <a href="#" target="_blank">X / Twitter</a>
       <a href="#" target="_blank">小红书</a>
-      <a href="https://github.com/shengfuzhang" target="_blank">GitHub</a>
+      <a href="https://github.com/Shengfu-Zhang" target="_blank">GitHub</a>
     </nav>
   </header>
 

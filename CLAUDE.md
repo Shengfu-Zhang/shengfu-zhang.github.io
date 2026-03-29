@@ -7,7 +7,7 @@
 ## What This Repo Is
 
 Personal blog and content artifact store for **Shengfu Zhang**.
-Live site: `https://shengfu-zhang.github.io`
+Live site: `https://shengfu-zhang.github.io/shengfu-blog/shengfu-blog`
 Hosted via: GitHub Pages (static HTML, no build step)
 
 The repo is both a **public blog** and a **cold artifact store** — every post lives here in full, across all platform variants.
@@ -17,7 +17,7 @@ The repo is both a **public blog** and a **cold artifact store** — every post 
 ## Repo Structure
 
 ```
-shengfu-zhang.github.io/
+shengfu-zhang.github.io/shengfu-blog/
 ├── CLAUDE.md                          ← You are here
 ├── README.md                          ← Human-facing repo description
 ├── index.html                         ← Personal site homepage
